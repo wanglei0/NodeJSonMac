@@ -1,0 +1,22 @@
+{
+  "name": "nodejsonmac",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watch",
+    "start": "nodemon index.js",
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axiosist": "^0.1.1",
+    "express": "^4.16.4",
+    "fs": "0.0.1-security",
+    "jest": "^23.6.0",
+    "nodemon": "^1.18.8",
+    "parcel-bundler": "^1.11.0"
+  }
+}
