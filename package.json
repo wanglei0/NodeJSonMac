@@ -1,10 +1,10 @@
 {
   "name": "nodejsonmac",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "public/index.js",
   "scripts": {
     "test": "jest --watch",
-    "start": "nodemon index.js",
+    "start": "nodemon s.js --ignore ./dist",
     "dev": "parcel index.html",
     "build": "parcel build index.html"
   },
@@ -12,11 +12,15 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "axios": "^0.18.0",
     "axiosist": "^0.1.1",
+    "babel-polyfill": "^6.26.0",
     "express": "^4.16.4",
     "fs": "0.0.1-security",
     "jest": "^23.6.0",
     "nodemon": "^1.18.8",
-    "parcel-bundler": "^1.11.0"
+    "parcel-bundler": "^1.11.0",
+    "react": "^16.7.0-alpha.2",
+    "react-dom": "^16.7.0-alpha.2"
   }
 }
